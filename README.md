@@ -17,4 +17,23 @@ This program implements an LL(1) parsing algorithm for a given context-free gram
 `git clone <repository_url>`
 3. Navigate to the project directory:
 `cd LL1-Parsing-Grammar`
+4. Compile the code:
+`g++ ll1_parsing_grammar.cpp -o ll1_parsing_grammar`
+5. Run the program:
+`./ll1_parsing_grammar`
+
+6. Follow the on-screen instructions to enter the filename containing the grammar and input string.
+
+## Grammar File Format
+
+The grammar and input string are read from a file. The file should follow the specified format:
+start_symbol
+production_1
+production_2
+...
+production_n
+input_string
+
+
+
 
