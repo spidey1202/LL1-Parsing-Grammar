@@ -28,22 +28,19 @@ This program implements an LL(1) parsing algorithm for a given context-free gram
 
 The grammar and input string are read from a file. The file should follow the specified format:
 ### Format 
-`
+```
 start_symbol
 production_1
 production_2
 ...
 production_n
 input_string
-`
+```
 
 - The `start_symbol` is a single character representing the start symbol of the grammar.
 - Each `production_i` is a production rule in the form `variable -> expression`, where `variable` is a single uppercase character and `expression` is a sequence of variables and terminals separated by spaces.
 - The `input_string` is the string to be parsed by the LL(1) parsing algorithm.
 
-## Example
-
-An example grammar file (`grammar.txt`) and input string (`input.txt`) are provided in the repository for reference. You can use these files to test the program.
 
 
 
