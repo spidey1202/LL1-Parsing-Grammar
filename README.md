@@ -27,13 +27,15 @@ This program implements an LL(1) parsing algorithm for a given context-free gram
 ## Grammar File Format
 
 The grammar and input string are read from a file. The file should follow the specified format:
+### Format 
+```
 start_symbol
 production_1
 production_2
 ...
 production_n
 input_string
-
+```
 
 
 
